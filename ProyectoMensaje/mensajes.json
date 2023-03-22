@@ -1,0 +1,32 @@
+[ 
+  {
+	"usuario": "Juan",
+	"texto": "Hola, ¿cómo están?",
+	"fecha": "2022-03-15T12:30:00Z"
+  },
+  {
+	"usuario": "Ana",
+	"texto": "¡Hola Juan! Estamos bien, ¿y tú?",
+	"fecha": "2022-03-15T12:31:00Z"
+  },
+  {
+	"usuario": "Pedro",
+	"texto": "Yo también estoy bien, gracias.",
+	"fecha": "2022-03-15T12:32:00Z"
+  },
+  {
+	"usuario": "Juan",
+	"texto": "Qué bueno, ¿qué planes tienen para hoy?",
+	"fecha": "2022-03-15T12:33:00Z"
+  },
+  {
+	"usuario": "Ana",
+	"texto": "Pensábamos ir al cine, ¿te animas?",
+	"fecha": "2022-03-15T12:34:00Z"
+  },
+  {
+	"usuario": "Pedro",
+	"texto": "Me encantaría, pero tengo que estudiar para un examen.",
+	"fecha": "2022-03-15T12:35:00Z"
+  }
+]

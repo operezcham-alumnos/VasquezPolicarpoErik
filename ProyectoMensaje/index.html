@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body onload="chambiar()">
+    <h2>😊Escriba su mensaje</h2>
+    <textArea></textArea>
+    <button>Enviar 📤</button>
+
+    <div id = "mensajes">
+    <section>
+
+    </section>
+    </div>
+    
+    <script>
+        let mensajes = "";
+        fetch('mensajes.json').then((Response)=>Response.json()).then((data)=>{
+            mensajes=data
+            chambiar()
+        })
+        
+        const chambiar = () => {
+            const m = document.getElementById('mensajes')
+            for (let i = 0; i < mensajes.length; i++) {
+                m.innerHTML += mensajes[i].usuario + ':' + mensajes[i].texto
+                m.innerHTML += '<br>'
+            }
+        }
+
+        if (req.method === 'GET' && req.url === '/mensajes' ){
+            res.end(JSON.stringify(mensajes))
+        }
+
+    </script>
+</body>
+</html>
