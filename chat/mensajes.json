@@ -1,0 +1,22 @@
+[ 
+    {
+      "usuario": "Erik",
+      "texto": "Hola, ¿cómo estás?",
+      "fecha": "2022-03-15T12:30:00Z"
+    },
+    {
+      "usuario": "Andy",
+      "texto": "¡Hola Erik! Estoy bien, ¿y tú?",
+      "fecha": "2022-03-15T12:31:00Z"
+    },
+    {
+      "usuario": "Erik",
+      "texto": "Qué bueno, ¿qué planes tienen para hoy?",
+      "fecha": "2022-03-15T12:33:00Z"
+    },
+    {
+      "usuario": "Andy",
+      "texto": "Pensábamos ir al cine, ¿te animas?",
+      "fecha": "2022-03-15T12:34:00Z"
+    }
+  ]
